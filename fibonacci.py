@@ -1,5 +1,6 @@
 import turtle
 
+sqs = input("How many Squares do you want?")
 wn = turtle.Screen()
 wn.bgcolor("white")
 from turtle import *
@@ -7,7 +8,7 @@ from turtle import *
 prev = 0
 start = 1
 fibonacci = 1
-sqs = input("How many Squares do you want?")
+
 for i in range(int(sqs)):
     print(str(i) + ". " + str(fibonacci))
 
